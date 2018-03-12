@@ -1,0 +1,5 @@
+javac -sourcepath ./src -d bin Test.java
+java -cp ./bin Test
+javac -sourcepath ./src -d bin BouncingBoxes.java && appletviewer ./bin/BouncingBoxes.html
+javac -sourcepath ./src -d bin ./src/bouncing/BouncingBoxes.java
+appletviewer ./bin/BouncingCircle.html
